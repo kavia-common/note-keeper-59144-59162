@@ -1,6 +1,8 @@
+"use client";
+
 import React from "react";
 
-export default function NotFound() {
+export default function NoteNotFound() {
   return (
     <div className="mx-auto max-w-3xl p-6">
       <section
@@ -9,8 +11,10 @@ export default function NotFound() {
         aria-live="assertive"
       >
         <header className="mb-2">
-          <h1 className="text-xl font-semibold text-slate-900">404 – Page Not Found</h1>
-          <p className="text-sm text-slate-600">The page you’re looking for doesn’t exist.</p>
+          <h1 className="text-xl font-semibold text-slate-900">Note Not Found</h1>
+          <p className="text-sm text-slate-600">
+            The note you’re looking for doesn’t exist or may have been deleted.
+          </p>
         </header>
       </section>
     </div>
